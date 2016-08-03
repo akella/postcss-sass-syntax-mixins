@@ -1,0 +1,35 @@
+{
+  "name": "postcss-sass-syntax-mixins",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that brings sass syntax for mixins to Precss plugin pack. So you can use +func(var).",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "sass",
+    "mixins",
+    "mixin",
+    "sass syntax"
+  ],
+  "author": "Yuri Artiukh <akella.a@gmail.com>",
+  "license": "MIT",
+  "repository": "akella/postcss-sass-syntax-mixins",
+  "bugs": {
+    "url": "https://github.com/akella/postcss-sass-syntax-mixins/issues"
+  },
+  "homepage": "https://github.com/akella/postcss-sass-syntax-mixins",
+  "dependencies": {
+    "postcss": "^5.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "eslint": "^3.1.1",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
